@@ -20,6 +20,8 @@ public class Base {
         //webdriver driver
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+        //new line aaaed
+        System.out.println("Hello java");
     }
         public static void navigate(String url  ){
         driver.get(url);
